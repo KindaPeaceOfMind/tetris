@@ -1,0 +1,28 @@
+table {
+	width: 600px;
+	height: auto;
+	border: solid 1px black;
+	position: absolute;
+}
+tr{
+	height: 60px;
+	
+}
+td {
+	width: 60px;
+	border: solid 1px black;
+}
+#stats {
+	position: absolute;
+	left: 610px;
+	top: 9px;
+	border: solid 1px black;
+	width: 420px;
+	height: 90px;
+	font-size: 300%;
+}
+button {
+	width: 420px;
+	height: 90px;
+	font-size: 100%;
+}
