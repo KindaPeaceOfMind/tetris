@@ -218,7 +218,7 @@ function Line()
 		if (busy == 10)
 		{
 			score = score + 100;
-			for (var i2 = i; i2 > 0; i2--) {
+			for (var i2 = i; i2 > 4; i2--) {
 				for (var j = 0; j < 10; j++) {
 					document.getElementById(i2 + "-" + j).style.backgroundColor = document.getElementById(i2 - 1 + "-" + j).style.backgroundColor;
 				}
